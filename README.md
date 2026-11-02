@@ -1097,4 +1097,4 @@ int main(int argc, char **argv)
 
 
 ## RESULT:
-Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
+Thus, the sum of arrays was successfully implemented on both the host (CPU) and device (GPU) using NVCC CUDA with random numbers. Four different executions were performed using different thread configurations. In all four executions, the CPU and GPU results matched correctly. The GPU execution time was approximately 0.0009 to 0.0010 seconds, whereas the CPU execution time was approximately 0.060 to 0.067 seconds. Hence, the GPU demonstrated significantly faster performance than the CPU due to parallel processing.
